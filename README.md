@@ -30,8 +30,10 @@ HOW TO USE templates_events :
           define("TEMPLATE_BEFORE_HEADER", "before_header.php");
  
  
- * Notice: the /data folder must be outside the main theme folder , or in a child theme,
- * so all of its content will not be affected by any future theme updates or wordpress updates, then you can put your tweaks there safely (-;
-
+ 
+ Notice, this is only a startup idea, it still needs a lot of work to be ready to use.
+ i Plane to use it in one of my websites to make the development process faster .
+ 
+Regards
 
 Author: Orwah Issa
