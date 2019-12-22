@@ -3,7 +3,7 @@ Just an idea for WordPress basic theme, from a 'developer friendly' point of vie
 
 that means you can changes every thing on this theme not only look & feel but even functionality, and you can give every customer different style for its WebSite with different functionality by using the same theme.<br>
 
-Mostly you will not need to use a child theme , just put all changes in Data folder, and it will not be affected by any future theme updates or wordpress updates, then you can put your tweaks there safely 
+Mostly you will not need to use a child theme , just put all changes in Data folder, and it will not be affected by any future theme updates or wordpress updates, then you can put your tweaks there safely.(-;
 
 
 Version: 0.1<br>
@@ -18,10 +18,10 @@ you can set the path of the new data folder from Functions.php, and that will en
 
 <b>HOW TO USE:</b><br>
 inside 'data' folder you will find :
-- preferences.php      : here you will set some general setting 
-- templates_events.php : here you will put your magic 
-- functions.php        : (still just an idea) you can override functions.php 
-- css folder           : you can put your custom css here (styl.css, styl-rtl.css, styl-ltr.css)
+- preferences.php      : here you will set some general setting. 
+- css folder           : you can put your custom css here (styl.css, styl-rtl.css, styl-ltr.css).
+- functions.php        : you can override functions.php (still an idea).
+- templates_events.php : here you will put your magic :
 
 Use Templates Events :<br>
  find the suitable event from the \data\templates_events.php eveints list, and Just replace 'false' by one of those 2 ways: 
