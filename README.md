@@ -32,7 +32,9 @@ Use Templates Events :<br>
  
  
  
-<u> Notice,</u> this is only a startup idea, it still needs a lot of work to be ready for use.<br>
+__ Notice,__ this is only a startup idea, it still needs a lot of work to be ready for use.<br>
+ 
+ 
  
  
  
