@@ -46,6 +46,7 @@ Use Templates Events :<br>
 "TEMPLATE_REPLACE_NAVBAR_BRAND" // replace the NavBar Brand (Site Title or Logo URL).
 
 
+
 // Main menu (at the Top Header)
 "TEMPLATE_BEFORE_MAIN_MENU"
 "TEMPLATE_REPLACE_MAIN_MENU"
