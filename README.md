@@ -16,12 +16,12 @@ Please notice that any theme updates will overwrite the whole folder completely,
 you can set the path of the new data folder from Functions.php, and that will enable you to test and try as many data-folders as you want, each with a different properities,style,view and functionality by just changing the current used data folder path .<br>
 
 
-
-inside data folder you will find :
+<b>HOW TO USE:</b><br>
+inside 'data' folder you will find :
 - preferences.php      : here you will set some general setting 
-- templates_events.php : here you will put your events 
+- templates_events.php : here you will put your magic 
 
-<b>HOW TO USE templates_events :</b><br>
+Use Templates Events :<br>
  find the suitable event from the \data\templates_events.php eveints list, and Just replace 'false' by one of those 2 ways: 
  * 1- Use direct HTML string ,example :<br> 
           define("TEMPLATE_AFTER_POST", "&lt;br&gt;&lt;hr&gt;&lt;br&gt;"); 
@@ -32,6 +32,75 @@ inside data folder you will find :
  
 <u> Notice,</u> this is only a startup idea, it still needs a lot of work to be ready to use.<br>
  i Plane to use it in one of my websites to make the development process faster .
+ 
+ 
+ <b>
+ currently supported events :
+<pre>  /* Header */
+"TEMPLATE_BEFORE_HEADER" // will add the content of the included file before the header.
+"TEMPLATE_BEGIN_OF_HEADER" // will add the content of the included file at the begining of the header. (inside the navbar class)
+"TEMPLATE_REPLACE_HEADER"// will replace the whole header with the content of included file . (default header will not displayed!)
+"TEMPLATE_END_OF_HEADER" // will add the content of the included file at the END of the the header. 
+"TEMPLATE_AFTER_HEADER" // will add the content of the included file after the header.
+"TEMPLATE_REPLACE_NAVBAR_HEADER" // will replace the NavBar Header .
+"TEMPLATE_REPLACE_NAVBAR_BRAND" // replace the NavBar Brand (Site Title or Logo URL)  .
+
+// Main menu (at the Top Header)
+"TEMPLATE_BEFORE_MAIN_MENU"
+"TEMPLATE_REPLACE_MAIN_MENU"
+"TEMPLATE_AFTER_MAIN_MENU"
+
+// Top of site (after header , before content)
+"TEMPLATE_TOP_BEFORE_ROW"
+
+// main content
+"TEMPLATE_BEFORE_CONTENT"
+"TEMPLATE_CONTENT_BEGIN"
+"TEMPLATE_CONTENT_END"
+
+// Post
+"TEMPLATE_BEFORE_POST"
+"TEMPLATE_POST_BEGIN"
+"TEMPLATE_REPLACE_POST"
+"TEMPLATE_BEFORE_POST_CONTENT"
+"TEMPLATE_AFTER_POST_CONTENT"
+"TEMPLATE_REPLACE_POST_TITLE"
+"TEMPLATE_REPLACE_POST_MORE"
+"TEMPLATE_REPLACE_POST_PAGINATION"
+"TEMPLATE_REPLACE_POST_META"  //posted by
+"TEMPLATE_REPLACE_POST_LINKS" // newer/older posts
+"TEMPLATE_POST_END"
+"TEMPLATE_AFTER_POST"
+
+"TEMPLATE_REPLACE_PAGE_NOT_FOUND"
+
+//Side Bar
+"TEMPLATE_BEFORE_SIDEBAR"
+"TEMPLATE_REPLACE_SIDEBAR"
+"TEMPLATE_SIDEBAR_BEGIN"
+"TEMPLATE_SIDEBAR_END"
+
+"TEMPLATE_SIDEBAR_BEFORE_WIDGET"
+"TEMPLATE_SIDEBAR_AFTER_WIDGET"
+"TEMPLATE_SIDEBAR_BEFORE_TITLE"
+"TEMPLATE_SIDEBAR_AFTER_TITLE"
+
+"TEMPLATE_REPLACE_PAGE_404"
+
+// footer
+"TEMPLATE_BEFORE_FOOTER"
+"TEMPLATE_FOOTER_BEGIN"
+"TEMPLATE_REPLACE_FOOTER"
+"TEMPLATE_FOOTER_END"
+"TEMPLATE_AFTER_FOOTER"
+
+// Comments
+"TEMPLATE_BEFORE_COMMENTS"
+"TEMPLATE_REPLACE_COMMENTS"
+"TEMPLATE_END_COMMENTS"
+ </pre>
+ 
+ 
  
 Regards
 
