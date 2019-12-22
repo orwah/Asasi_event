@@ -20,6 +20,8 @@ you can set the path of the new data folder from Functions.php, and that will en
 inside 'data' folder you will find :
 - preferences.php      : here you will set some general setting 
 - templates_events.php : here you will put your magic 
+- functions.php        : (still just an idea) you can override functions.php 
+- css folder           : you can put your custom css here (styl.css, styl-rtl.css, styl-ltr.css)
 
 Use Templates Events :<br>
  find the suitable event from the \data\templates_events.php eveints list, and Just replace 'false' by one of those 2 ways: 
