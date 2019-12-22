@@ -1,10 +1,13 @@
 # Asasi_event
 Just an idea for WordPress basic theme, from a 'developer friendly' point of view, it will allow developers to customize all theme parts programmatically and via predefined events, with no danger of losing changes when updating theme.<br>
-that means you can changes every thing on this theme not only look & feel but even functionality, and you can give every customer different style for its WebSite with different functionality by using the same theme.
+
+that means you can changes every thing on this theme not only look & feel but even functionality, and you can give every customer different style for its WebSite with different functionality by using the same theme.<br>
+
+Mostly you will not need to use a child theme , just put all changes in Data folder, and it will not be affected by any future theme updates or wordpress updates, then you can put your tweaks there safely 
 
 
 Version: 0.1<br>
-Tags: light, white, bootstrap, multilangual, RTL, right to left, Arabic, developer friendly, Support Events 
+Tags: light, white, bootstrap, multilangual, RTL, right to left, Arabic, developer friendly, Support Events<br> 
 
 
 All custom changes and modifications will be stored in the Data Folder, <br>
