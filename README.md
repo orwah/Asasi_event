@@ -37,13 +37,14 @@ Use Templates Events :<br>
  <b>
  currently supported events :
 <pre>  /* Header */
-"TEMPLATE_BEFORE_HEADER" // will add the content of the included file before the header.
-"TEMPLATE_BEGIN_OF_HEADER" // will add the content of the included file at the begining of the header. (inside the navbar class)
-"TEMPLATE_REPLACE_HEADER"// will replace the whole header with the content of included file . (default header will not displayed!)
-"TEMPLATE_END_OF_HEADER" // will add the content of the included file at the END of the the header. 
-"TEMPLATE_AFTER_HEADER" // will add the content of the included file after the header.
+"TEMPLATE_BEFORE_HEADER" // add the custom content before the header.
+"TEMPLATE_BEGIN_OF_HEADER" // add the custom content at the begining of the header. (inside the navbar class)
+"TEMPLATE_REPLACE_HEADER"// replace the whole header with the custom content. (default header will not displayed!)
+"TEMPLATE_END_OF_HEADER" // will add the custom content at the END of the the header. 
+"TEMPLATE_AFTER_HEADER" // will add the custom content after the header.
 "TEMPLATE_REPLACE_NAVBAR_HEADER" // will replace the NavBar Header .
 "TEMPLATE_REPLACE_NAVBAR_BRAND" // replace the NavBar Brand (Site Title or Logo URL)  .
+
 
 // Main menu (at the Top Header)
 "TEMPLATE_BEFORE_MAIN_MENU"
