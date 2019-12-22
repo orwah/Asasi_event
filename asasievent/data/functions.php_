@@ -1,0 +1,19 @@
+<?php
+
+
+function asasi_after_setup_theme() {
+
+
+}
+   
+
+
+function asasi_wp_enqueue_scripts ( $in_footer ) {
+
+    
+}
+
+
+
+
+

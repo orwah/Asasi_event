@@ -1,0 +1,71 @@
+
+@font-face{font-family:"Font_Regular";src:url("../fonts/lato-regular.ttf") format("truetype");font-weight:normal;font-style:normal}
+@font-face{font-family:"Font_Bold";src:url("../fonts/lato-bold.ttf") format("truetype");font-weight:normal;font-style:normal}
+
+
+body {
+    font-family:  "Font_Regular",Tahoma,Arial; 
+    font-size: 16px;
+	}
+
+
+h1 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+	font-size: 26px;
+}
+
+h2 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+	font-size: 22px;
+}
+ 
+h3 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+	font-size: 20px;
+}
+
+h4 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+    font-size: 18px;
+}
+
+h5 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+    font-size: 16px;
+}
+
+
+.navbar-brand{
+    font-family:  "Font_Bold",Tahoma,Arial; 
+    font-size: 16px;
+    padding-left: 30px;
+    /*background: url(../images/logo.png) right center no-repeat;*/
+	font-size: 18px;
+}
+
+.nav .nav-item-sub{
+    font-family:  "Font_Regular",Tahoma,Arial; 
+    font-weight:200 ;
+    font-size: 17px;
+    padding-left: 20px;
+    line-height: 0.9em;
+}
+  
+.sidebar {
+  /*position: absolute;  
+  left: 0; */
+  min-height: 100vh;
+  border-right: 1px solid #eee; 
+  padding-left: 13px;
+  padding-right: 8px;
+  padding-top: 40px;
+}
+  
+   
+.sidebar .nav {
+  font-family:  "Font_Bold",Tahoma,Arial; 
+  font-size: 16px;
+}
+
+
+

@@ -1,0 +1,95 @@
+
+@font-face{font-family:"Font_Regular";src:url("../fonts/NotoKufiArabic-Regular.ttf") format("truetype");font-weight:normal;font-style:normal}
+@font-face{font-family:"Font_Bold";src:url("../fonts/NotoKufiArabic-Bold.ttf") format("truetype");font-weight:normal;font-style:normal}
+
+
+body {
+    font-family:  "Font_Regular",Tahoma,Arial;  
+    font-size: 14px;
+	line-height: normal;
+	}
+
+	
+h1 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+	font-size: 24px;
+}
+
+h2 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+	font-size: 20px;
+}
+ 
+h3 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+	font-size: 18px;
+}
+
+h4 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+    font-size: 16px;
+}
+
+h5 {
+    font-family:  "Font_Bold",Tahoma,Arial; 
+    font-size: 14px;
+}
+
+
+.navbar-brand{
+    font-family:  "Font_Bold",Tahoma,Arial; 
+    font-size: 16px;
+    padding-left: 30px;
+    /*background: url(../images/logo.png) right center no-repeat;*/
+	font-size: 16px;
+}
+
+.nav .nav-item-sub{
+    font-family:  "Font_Regular",Tahoma,Arial; 
+    font-weight:200 ;
+    font-size: 15px;
+    padding-right: 25px;
+    line-height: 0.9em;
+}
+  
+.sidebar {
+  min-height: 100vh;
+  border-left: 1px solid #eee;
+  padding-right: 13px;
+  padding-left: 8px;
+  padding-top: 40px;
+}
+  
+
+   
+.sidebar .nav {
+  font-family:  "Font_Bold",Tahoma,Arial; 
+  font-size: 14px;
+}
+
+
+
+/* orwah : must put class="rtl" on body tag*/
+
+.rtl {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+.rtl .pull-left {
+  right: 0;
+  left: auto;
+  float: right !important;
+}
+.rtl .pull-right {
+  float: left !important;
+  left: 0;
+  right: auto;
+}
+
+
+
+/* *************************************************************************** */
+@media only screen and (min-width: 900px) {
+
+} /* End @media ** */ 
+/* *************************************************************************** */

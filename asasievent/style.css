@@ -1,0 +1,101 @@
+/*
+Theme Name: Asasi Events
+Description: simple theme , support bootstrap,right to left (RTL languages) , Arabic, Multi language .
+Author: Orwah Issa
+Author URI: http://sy-it.com/
+Theme URI: http://sy-it.com.com/products/themes/asasi/
+Version: 0.1
+Tags: light, white, bootstrap, multilangual, RTL, right to left, Arabic, developer friendly, Support Events 
+Text Domain: asasi
+*/
+
+
+
+
+/* asasi */  
+.left {float:left;}
+.right {float:right;}
+.rtl .left {float:right;}
+.rtl .right {float:left;}
+.clear {clear:both;}
+
+
+body {
+   /* padding-top: 50px; */
+    padding-bottom:40px;
+   /* font-family:  "Font_Regular",Tahoma,Arial; */
+    font-size: 14px;
+    line-height: 1.7em;      
+    }
+
+#content {
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 25px;
+    }
+    
+    
+
+.widget ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px 0 0 ;
+}
+
+#navbar,#navbar li,.sub-menu,.sub-menu li {
+    display: inline;   
+}
+
+.navbar-brand{
+
+}
+
+   
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-right: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+.form-signin {
+  max-width:400px;
+  padding: 15px 35px 45px 35px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+
+
+.searchform input[type=text] { max-width: 95%;}
+
+th{
+    text-align:center;
+}
+
+
+.fontB{
+    font-family:  "Font_Bold",Tahoma,Arial; 
+}
+
+.fontR{
+    font-family:  "Font_Regular",Tahoma,Arial; 
+}
+
+.fontRed{
+    color: red; 
+}
+
+.fontBlue{
+    color:blue; 
+}
+
