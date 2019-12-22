@@ -32,8 +32,10 @@ Use Templates Events :<br>
  
  
  
-<u> Notice,</u> this is only a startup idea, it still needs a lot of work to be ready to use.<br>
- i Plane to use it in one of my websites to make the development process faster .
+<u> Notice,</u> this is only a startup idea, it still needs a lot of work to be ready for use.<br>
+ 
+ 
+ 
  
  
  <b>
@@ -73,6 +75,7 @@ Use Templates Events :<br>
 "TEMPLATE_REPLACE_POST_PAGINATION"
 "TEMPLATE_REPLACE_POST_META"  //posted by
 "TEMPLATE_REPLACE_POST_LINKS" // newer/older posts
+"TEMPLATE_REPLACE_POST_THUMBNAIL" // featured image
 "TEMPLATE_POST_END"
 "TEMPLATE_AFTER_POST"
 
