@@ -43,7 +43,7 @@ Use Templates Events :<br>
 "TEMPLATE_END_OF_HEADER" // will add the custom content at the END of the the header. 
 "TEMPLATE_AFTER_HEADER" // will add the custom content after the header.
 "TEMPLATE_REPLACE_NAVBAR_HEADER" // will replace the NavBar Header .
-"TEMPLATE_REPLACE_NAVBAR_BRAND" // replace the NavBar Brand (Site Title or Logo URL)  .
+"TEMPLATE_REPLACE_NAVBAR_BRAND" // replace the NavBar Brand (Site Title or Logo URL).
 
 
 // Main menu (at the Top Header)
