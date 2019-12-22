@@ -23,6 +23,7 @@ inside data folder you will find :
 - templates_events.php : here you will put your events 
 
 HOW TO USE templates_events :
+
  find the suitable event from the \data\templates_events.php eveints list, and Just replace 'false' by one of those 2 ways: 
  * 1- Use direct HTML string ,example : 
           define("TEMPLATE_AFTER_POST", "&lt;br&gt;&lt;hr&gt;&lt;br&gt;"); 
