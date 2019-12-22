@@ -18,7 +18,7 @@ inside data folder you will find :
 HOW TO USE templates_events :
  find the suitable event from the \data\templates_events.php eveints list, and Just replace 'false' by one of those 2 ways: 
  * 1- Use direct HTML string ,example : 
-          define("TEMPLATE_AFTER_POST", "<br>****<hr><br>"); 
+          define("TEMPLATE_AFTER_POST", "<br><hr><br>"); 
  * 2- or instead of html you can put a php file name (files must be located inside data/templates/ folder) , example :
           define("TEMPLATE_BEFORE_HEADER", "before_header.php");
  
